@@ -9,7 +9,7 @@ cat << 'EOF' > README.md
 
 ---
 
-## 🛑 The 1-Crore Enterprise Problem
+## 🛑 The Enterprise Problem
 In modern Site Reliability Engineering (SRE), agentic automation is highly effective but inherently brittle. When a production Kubernetes pod crashes (e.g., `OOMKilled`), standard agents query single-point-of-failure LLM APIs (OpenAI, Anthropic) to diagnose the telemetry. 
 
 If the vendor experiences an outage, or if a corporate Web Application Firewall (WAF) blocks the datacenter IP, the SRE agent crashes alongside the infrastructure. This leaves multi-million dollar cloud environments vulnerable, skyrocketing Mean Time To Recovery (MTTR) and operational burn.
